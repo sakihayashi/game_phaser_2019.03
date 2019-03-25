@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My first Phaser game</title>
+        <script src="//cdn.jsdelivr.net/npm/phaser@3.16.2/dist/phaser.js"></script>
+        <style>
+            body{
+                margin: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <script type="text/javascript">
+            let config={
+                type: Phaser.AUTO,
+                width: 800,
+                height: 600,
+                scene: {
+                    preload: preload,
+                    create: create,
+                    update: update
+                }
+                
+            }
+            let game= new Phaser.Game(config);
+            function preload(){
+
+            }
+            function create(){
+
+            }
+            function update(){
+
+            }
+
+        </script>
+    </body>
+</html>
